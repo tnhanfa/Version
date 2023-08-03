@@ -186,8 +186,8 @@ function nav(path) {
     var search_bar = `
 </ul>
 <form class="d-flex" method="get" action="/${cur}:search">
-<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" value="${search_text}" required>
-<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Search</button>
+<input class="form-control me-2" name="q" type="search" placeholder="Bạn muốn tìm" aria-label="Search" value="${search_text}" required>
+<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit">Tìm</button>
 </form>
 </div>
 </div>
@@ -379,7 +379,7 @@ function list(path) {
   </div>
     <div id="list" class="list-group text-break">
     </div>
-    <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
+    <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Tổng cộng <span class="number text-center"></span> tập tin (thư mục)</div>
     <div id="readme_md" style="display:none; padding: 20px 20px;"></div>
     </div>
     `;
