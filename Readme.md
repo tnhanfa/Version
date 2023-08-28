@@ -1,4 +1,4 @@
-<h3 align="center">Donate
+<h3 align="center">DONATE
 </h3>
 
 - STK: `0898793581`
