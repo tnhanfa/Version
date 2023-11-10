@@ -179,8 +179,7 @@ function nav(path) {
 
     html += `</div></li><li class="nav-item">
     <a class="nav-link" href="${UI.contact_link}" target="_blank">${UI.nav_link_4}</a>
-    <a class="nav-link" href="${UI.donate}" target="_blank">${UI.nav_link_5}</a>
-  </li>${UI.show_logout_button ?'<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>': ''}`;
+  </li>    <a class="nav-link" href="${UI.donate}" target="_blank">${UI.nav_link_5}</a>${UI.show_logout_button ?'<li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>': ''}`;
 
     var search_text = model.is_search_page ? (model.q || '') : '';
     const isMobile = Os.isMobile;
